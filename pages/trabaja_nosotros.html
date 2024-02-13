@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- imagen y titulo -->
+    <link rel="icon" href="../assets/logo_website.png">
+    <title>Blog de Tecnología</title>
+</head>
+
+<body>
+    <header>
+        <section class="flex">
+            <a href="../index.html">
+                <img class="img_logo" src="../assets/logo_website.png" alt="logo de la pagina">
+            </a>
+            <nav class="menu_nav">
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="noticias.html">Noticias</a>
+                    </li>
+                    <li>
+                        <a href="foro.html">Foro</a>
+                    </li>
+                    <li>
+                        <a href="trabaja_nosotros.html">Trabaja con Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="iniciar_sesion.html">Iniciar Sesion</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="trabaja_nosotros">
+            <h2 class="titulo_h2">Únete a Nuestro Equipo</h2>
+
+            <section class="equipo_postulante">
+                <h3 class="titulo_h3">Programadores</h3>
+                <p> Estamos buscando programadores apasionados y talentosos para unirse a nuestro equipo. 
+                    Si tienes experiencia en desarrollo web, conocimientos de HTML, CSS, JavaScript y otras 
+                    tecnologías web, y te encanta la idea de contribuir a un emocionante proyecto de blog, 
+                    ¡queremos conocerte!
+                </p>
+            </section>
+
+            <section class="equipo_postulante">
+                <h3 class="titulo_h3">Editores de Contenido</h3>
+                <p>¿Te apasiona la creación de contenido? Estamos en la búsqueda de editores de contenido 
+                    que compartan nuestra pasión por la tecnología y estén dispuestos a contribuir con 
+                    artículos relevantes y emocionantes para nuestro blog. Si tienes habilidades para la 
+                    escritura y el deseo de ser parte de nuestro equipo, ¡esperamos recibir tu aplicación!
+                </p>
+            </section>
+
+            <section class="equipo_postulante">
+                <h3 class="titulo_h3">Moderadores</h3>
+                <p> Buscamos moderadores comprometidos y responsables para mantener un ambiente amigable y
+                    seguro en nuestra comunidad en línea. Si te preocupa la experiencia de nuestros usuarios 
+                    y tienes habilidades de moderación, ¡te invitamos a postularte!
+                </p>
+            </section>
+        </section>
+
+        <section class="aplica-section">
+            <h2 class="titulo_h2">Postularte Aqui</h2>
+                <form class="formulario" action="" method="">
+                    <label for="nombre_postulante">Nombre del Postulante:</label>
+                    <input type="text" name="nombres_postulante" required>
+
+                    <label for="apellido_postulante">Apellido del Postulante:</label>
+                    <input type="text" name="nombres_postulante" required>
+
+                    <label for="email_postulante">Email del Postulante:</label>
+                    <input type="email" name="email_postulante" required>
+
+                    <label for="cargo">Selecciona el cargo al que postulas:</label>
+                    <select id="cargo" name="cargo">
+                        <option value="null">Cargo al que Postula</option>
+                        <option value="programador">Programador</option>
+                        <option value="moderador">Moderador</option>
+                        <option value="editor">Editor</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <label for="sobre_ti">Sobre ti:</label>
+                    <textarea name="comentarios" rows="4" cols="50" placeholder="Escribenos un poco sobre ti aquí..."></textarea>
+                    
+                    <label for="CV">Selecciona un archivo de CV:</label>
+                    <input type="file" id="archivo" name="archivo" accept=".pdf, .doc, .docx">
+            
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section>
+            <ul class="menu_nav">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="foro.html">Foro</a>
+                </li>
+                <li>
+                    <a href="trabaja_nosotros.html">Trabaja con Nosotros</a>
+                </li>
+                <li>
+                    <a href="iniciar_sesion.html">Iniciar Sesion</a>
+                </li>
+            </ul>
+        </section>
+
+        <div class="redes_sociales">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../assets/rrss-logo-face.svg" alt="Logo de Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/rrss-logo-insta.svg" alt="Logo de Instagram"></a>
+        </div>
+
+        <div class="copyright">
+            <p class="paragraph">2024 - Creado por Daniel</p>
+        </div>
+    </footer>
+
+</body>
+</html>
